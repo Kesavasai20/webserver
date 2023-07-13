@@ -58,10 +58,11 @@ server_address =('',8000)
 httpd = HTTPServer(server_address,MyServer)
 httpd.serve_forever()
 
-
-## SERVER OUTPUT
+```
+## OUTPUT: 
+### SERVER OUTPUT :
 ![serveroutput](serveroutput.jpg)
-## CLIENT OUTPUT :
+### CLIENT OUTPUT :
 ![clientoutput](clientoutput.jpg)
 ## RESULT:
 The program is executed succesfully
